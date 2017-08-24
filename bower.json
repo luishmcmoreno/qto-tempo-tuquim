@@ -4,7 +4,10 @@
   "dependencies": {
     "bootstrap": "~3.3.5",
     "moment": "momentjs#^2.18.1",
-    "moment-countdown": "^0.0.3"
+    "moment-countdown": "^0.0.3",
+    "countdown": "^2.2.0",
+    "countdown.js": "^1.1.0",
+    "countdownjs": "^2.6.0"
   },
   "overrides": {
     "bootstrap": {
