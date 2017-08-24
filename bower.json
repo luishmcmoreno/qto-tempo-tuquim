@@ -2,7 +2,8 @@
   "name": "qtotempotuquim",
   "private": true,
   "dependencies": {
-    "bootstrap": "~3.3.5"
+    "bootstrap": "~3.3.5",
+    "moment": "momentjs#^2.18.1"
   },
   "overrides": {
     "bootstrap": {
