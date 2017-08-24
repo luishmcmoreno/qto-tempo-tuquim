@@ -3,7 +3,8 @@
   "private": true,
   "dependencies": {
     "bootstrap": "~3.3.5",
-    "moment": "momentjs#^2.18.1"
+    "moment": "momentjs#^2.18.1",
+    "moment-countdown": "^0.0.3"
   },
   "overrides": {
     "bootstrap": {
