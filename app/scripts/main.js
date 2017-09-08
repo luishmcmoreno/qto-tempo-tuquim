@@ -1,6 +1,5 @@
 function countdownFrom(datetime) {
   var cd = moment().countdown(datetime);
-  console.log(cd);
   var cdStr = '';
 
   if (cd.months > 0) {
@@ -34,11 +33,8 @@ function countdownFrom(datetime) {
 document.addEventListener('DOMContentLoaded', function () {
 
   setInterval(function () {
-    var ida = countdownFrom('2017-09-07 21:45');
     var volta = countdownFrom('2017-09-27 21:45');
-    var idaElem = document.querySelector('.ida');
     var voltaElem = document.querySelector('.volta');
-    idaElem.innerText = ida;
     voltaElem.innerText = volta;
   }, 1000);
 
