@@ -32,10 +32,11 @@ function countdownFrom(datetime) {
 
 document.addEventListener('DOMContentLoaded', function () {
 
-  setInterval(function () {
-    var volta = countdownFrom('2017-09-27 21:45');
-    var voltaElem = document.querySelector('.volta');
-    voltaElem.innerText = volta;
-  }, 1000);
+  // setInterval(function () {
+  //    // Cálculo do tempo para o jogo da volta
+  //   var volta = countdownFrom('2017-09-27 21:45');
+  //   var voltaElem = document.querySelector('.volta');
+  //   voltaElem.innerText = volta;
+  // }, 1000);
 
 });
