@@ -2,12 +2,18 @@
   margin-bottom: 15px;
 }
 
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+
 .champion {
   font-weight: bold;
   text-align: center;
   color: #0058A2;
   font-size: 26px;
   margin-bottom: 0;
+  animation: blinker 0.5s linear infinite;
 }
 
 .match {
